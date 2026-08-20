@@ -48,7 +48,7 @@ namespace Cake.Json
         [CakeMethodAlias]
         public static T DeserializeJson<T> (this ICakeContext context, string json)
         {
-            return JsonConvert.DeserializeObject<T> (json);
+            return JsonConvert.DeserializeObject<T> (json)!;
         }
 
         /// <summary>
