@@ -1,4 +1,4 @@
-#reference "../../BuildArtifacts/temp/_PublishedLibraries/Cake.Json/net6.0/Cake.Json.dll"
+#reference "../../BuildArtifacts/temp/_PublishedLibraries/Cake.Json/net8.0/Cake.Json.dll"
 
 using Newtonsoft.Json.Linq;
 
