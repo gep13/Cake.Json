@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using Cake.Common.Diagnostics;
+using Cake.Common.IO;
 using Cake.Frosting;
 using Cake.Json;
 
