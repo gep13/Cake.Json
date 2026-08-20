@@ -101,6 +101,12 @@ jobs:
         shell: pwsh
         run: ./demo/frosting/build.ps1
 
+      - name: Run demo/sdk
+        if: success()
+        shell: pwsh
+        working-directory: ./demo/sdk
+        run: dotnet cake.cs
+
       - name: Upload Issues-Report
         uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5
         with:
