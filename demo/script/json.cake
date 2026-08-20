@@ -1,4 +1,4 @@
-#reference "BuildArtifacts/temp/_PublishedLibraries/Cake.Json/net7.0/Cake.Json.dll"
+#reference "../../BuildArtifacts/temp/_PublishedLibraries/Cake.Json/net6.0/Cake.Json.dll"
 
 using Newtonsoft.Json.Linq;
 
@@ -20,7 +20,7 @@ public class Pet
     public int Age { get; set; }
 }
 
-var workDir = Directory("./BuildArtifacts/temp/test-json");
+var workDir = Directory("./_work");
 var sampleFile = workDir + File("sample.json");
 var roundtripFile = workDir + File("roundtrip.json");
 var prettyFile = workDir + File("pretty.json");
